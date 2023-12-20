@@ -1,0 +1,38 @@
+{
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "version": "1.0.0",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+     "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
+   },
+   "author": "Seiri",
+   "theme": {
+      "colors": {
+         "frame": [236, 226, 207],
+         "frame_inactive": [236, 226, 207],
+         "frame_incognito": [236, 226, 207],
+         "toolbar": [213, 178, 123],
+         "ntp_background": [0, 0, 0],
+         "button_background": [0, 0, 0, 0]
+      },
+      "images": {
+         "theme_ntp_background": "images/theme_ntp_background.jpeg"
+      },
+      "properties": {
+         "ntp_background_alignment": "left bottom",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [0.5, 0.5, 0.5],
+         "frame": [0.5, 0.5, 0.5],
+         "frame_inactive": [0.5, 0.5, 0.5],
+         "frame_incognito": [0.5, 0.5, 0.5],
+         "frame_incognito_inactive": [0.5, 0.5, 0.5]
+      }
+   }
+}
